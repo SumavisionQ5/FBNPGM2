@@ -1,20 +1,19 @@
-# FinalBurn Neo 的 PGM2 驱动
+# PGM2 Driver for FinalBurn Neo
+This project is ported from MAME 0.254, based on FBNeo 1.0.0.2 code. Compared to the original code, the main change is the reduction of ROM encryption/decryption content.
 
-本项目是从 [MAME](https://github.com/mamedev/mame) 0.254 移植而来、基于 [FBNeo](https://github.com/finalburnneo/FBNeo) 1.0.0.2 的代码。与原始代码相比，主要减少了 ROM 加解密的内容。
+The code in this project is functional, but due to limited personal time and energy, QingTian(qt) cannot personally merge the current code into master. QingTian hopes that capable contributors can take over and complete the merge.
 
-本项目的代码功能可用，但因个人精力不足，我无法亲自将当前代码合并到 `master`，希望有能力的贡献者可以接手并完成合并。
+QingTian said he is just an amateur programming enthusiast, the code quality may be limited. Please bear with it.
 
-因为本人只是个编程爱好者，代码质量有限，敬请海涵。
+demo: https://www.bilibili.com/video/BV1WCtce6ECT
 
-演示视频：https://www.bilibili.com/video/BV1WCtce6ECT
+Decrypted Roms: https://drive.google.com/drive/folders/1loZzk147WFaIIxPd04FHd3RNTos1cnHB?usp=sharing
 
-解密 ROM：https://share.weiyun.com/jf128Ic3 密码：set6xb
-
-## 补充说明
+## Addtion note:
 
 ```c++
 // -----------------------------------------------------------------------------
-//   菜单：卡片
+//   Menu: card
 // -----------------------------------------------------------------------------
 
 .file "src/burn/burn.h"
