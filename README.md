@@ -1,9 +1,9 @@
 # PGM2 Driver for FinalBurn Neo
 This project is ported from MAME 0.254, based on FBNeo 1.0.0.2 code. Compared to the original code, the main change is the reduction of ROM encryption/decryption content.
 
-The code in this project is functional, but due to limited personal time and energy, QingTian(qt) cannot personally merge the current code into master. QingTian hopes that capable contributors can take over and complete the merge.
+The code in this project is functional, but due to limited personal time and energy, 次里品初(CiLiPinChu) cannot personally merge the current code into master. 次里品初 hopes that capable contributors can take over and complete the merge.
 
-QingTian said he is just an amateur programming enthusiast, the code quality may be limited. Please bear with it.
+次里品初 said he is just an amateur programming enthusiast, the code quality may be limited. Please bear with it.
 
 demo: https://www.bilibili.com/video/BV1WCtce6ECT
 
@@ -13,7 +13,7 @@ Decrypted Roms: https://drive.google.com/drive/folders/1loZzk147WFaIIxPd04FHd3RN
 
 ```c++
 // -----------------------------------------------------------------------------
-//   Menu: card
+//   Menu: cards stuff
 // -----------------------------------------------------------------------------
 
 .file "src/burn/burn.h"
