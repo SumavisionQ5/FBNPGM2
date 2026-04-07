@@ -9,7 +9,7 @@ demo: https://www.bilibili.com/video/BV1WCtce6ECT
 
 Decrypted Roms: https://drive.google.com/drive/folders/1loZzk147WFaIIxPd04FHd3RNTos1cnHB?usp=sharing
 
-## Addtion note:
+## Addition note:
 
 ```c++
 // -----------------------------------------------------------------------------
